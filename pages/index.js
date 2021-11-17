@@ -51,7 +51,7 @@ function HomePage() {
           <option value="0.1">Bad</option>
           <option value="0.05">Terrible</option>
         </select>
-        <label>How much people are sharing the bill?</label>
+        <label>How many people are sharing the bill?</label>
         <input type="number" className="people-input" onChange={(event) => setPeopleAmount(event.target.value)}/>
         <input type="submit" value="Calculate" className="calculate-button" />
       </form>
