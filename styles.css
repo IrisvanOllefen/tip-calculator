@@ -42,9 +42,23 @@ form {
     font-size: 16px;
 }
 
+.price-input:focus, .service-input:focus, .people-input:focus, .calculate-button:focus {
+    outline: none;
+    border: 3px solid rgb(77, 105, 136);
+}
+
 .calculate-button {
     background-color: rgb(238,174,202);
+    border: 1px solid black;
     padding: 15px;
     font-size: 21px;
     font-weight: 600;
+}
+
+.calculate-button:hover {
+    background-color:rgb(156, 120, 190);
+}
+
+.calculate-button:active {
+    transform: scale(0.97)
 }
