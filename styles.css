@@ -15,7 +15,7 @@ body {
     box-shadow: 5px 5px 15px grey;
 }
 
-.title, .result, .total {
+.title, .result, .result-people, .total, .total-people {
     text-align: center;
 }
 
@@ -23,9 +23,10 @@ body {
     margin-bottom: 40px;
 }
 
-.result {
+.result, .total {
     margin-top: 40px;
 }
+
 
 form {
     display: flex;
@@ -34,7 +35,7 @@ form {
     font-size: 18px;
 }
 
-.price-input, .service-input, .calculate-button {
+.price-input, .service-input, .people-input, .calculate-button {
     padding: 8px;
     border: 0.5px solid darkslategray;
     border-radius: 6px;
